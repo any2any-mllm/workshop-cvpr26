@@ -508,6 +508,21 @@ section { padding: 56px 0; }
   box-shadow: 0 14px 30px rgba(0,0,0,.16);
   background: var(--gunn-red-dark);
 }
+.submit-btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+  background: #ccc;
+  color: #666;
+}
+.cta-btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+  background: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.5);
+}
 
 /* Modal */
 .modal {
